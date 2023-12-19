@@ -14,7 +14,7 @@ def sum_of_words(x):
 
         if n % 100 in words: sum+= len(words[n % 100])
         else:                sum+= len(words[((n % 100) // 10) * 10]) + len(words[n % 10])
-        
+                
     return sum
 
 print(sum_of_words(1000))
