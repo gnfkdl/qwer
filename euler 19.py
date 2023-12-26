@@ -7,7 +7,7 @@ def sum_sunday():
             day = 31
             if month == 4 or month == 6 or month == 9 or month == 11: day = 30 
             elif month == 2 and year % 4 == 0 and (year % 400 == 0 or year % 100 != 0): day = 29
-            elif month == 2: day = 28
+            elif month == 2: day = 28   
             
             for d in range(1,day+1):
                 if d == 1 and weekday == 7 and year > 1900: sunday += 1
