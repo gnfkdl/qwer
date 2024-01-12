@@ -15,7 +15,7 @@ def prime_value(a,b):
     while True:
         num = (n**2) + (a*n) + b
         if num not in all_num: all_num[num] = is_prime(num)
-        if all_num[num]: n+= 1
+        if all_num[num]: n+= 1 
         else: break
     return n
 
