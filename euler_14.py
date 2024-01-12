@@ -8,7 +8,7 @@ def loop_collatz(n):
         instan+= n,
         if n in num: break
         if n == 1: break
-        n = collatz(n)
+        n = collatz(n) 
 
     for i in range(0,len(instan)): 
         num[instan[i]] = len(instan) - i + num[n] -1
