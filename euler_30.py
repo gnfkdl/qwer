@@ -7,4 +7,4 @@ def digits(i):
 for i in range(1,999999): 
     if i == digits(i): answer+= i,
 
-print(sum(answer)-1)
+print(sum(answer)-1) 

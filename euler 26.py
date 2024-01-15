@@ -2,7 +2,7 @@ longest_float, longest_denominator = 0
 
 def fraction(denominator):
     menurator = 1
-    digit_of_floats = []
+    digit_of_floats = [] 
 
     while menurator != 0:
         if menurator in digit_of_floats:    return len(digit_of_floats) - digit_of_floats.index(menurator)
